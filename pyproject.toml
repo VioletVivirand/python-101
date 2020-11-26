@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-101"
+version = "0.1.0"
+description = ""
+authors = ["Violet Vivirand <purpleslovemail@gmail.com>"]
+license = "cc-by-nc-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
