@@ -7,8 +7,13 @@ license = "cc-by-nc-4.0"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+jupyter-http-over-ws = "^0.0.8"
+jupyter = "^1.0.0"
+jupyterlab = "^2.2.9"
+jupytext = "^1.7.1"
 
 [tool.poetry.dev-dependencies]
+ipython = "^7.19.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

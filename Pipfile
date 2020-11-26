@@ -7,5 +7,10 @@ verify_ssl = true
 python_version = "3.9"
 
 [packages]
+jupyter = "==1.*,>=1.0.0"
+jupyter-http-over-ws = "==0.*,>=0.0.8"
+jupyterlab = "==2.*,>=2.2.9"
+jupytext = "==1.*,>=1.7.1"
 
 [dev-packages]
+ipython = "==7.*,>=7.19.0"
