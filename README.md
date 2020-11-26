@@ -1,4 +1,7 @@
-# python-101
+# Python 101 Tutorial
+
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/violetvivirand/python-101)
+
 Python lectures for begineers
 
 ## License
