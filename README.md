@@ -4,7 +4,20 @@
 
 Python lectures for begineers
 
-# Contributing
+## Chapters
+
+| Chapter # | Title                                       | Notebook                                                                                                                                                             | Google Colab |
+|-----------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1         | Hello world!                                | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%201/Python%20Basics%20-%20Chapter%201%20-%20Hello%20world.ipynb)                     |              |
+| 2         | Datatypes and Operators：資料型態與運算子   | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%202/Python%20Basics%20-%20Chapter%202%20-%20Datatypes%20and%20Operators.ipynb)       |              |
+| 3         | Methods and Functions：方法與函式           | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%203/Python%20Basics%20-%20Chapter%203%20-%20Methods%20and%20Functions.ipynb)         |              |
+| 4         | Collections：集合物件                       | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%204/Python%20Basics%20-%20Chapter%204%20-%20Collections.ipynb)                       |              |
+| 5         | Control flows and Iterables：流程控制與疊代 | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%205/Python%20Basics%20-%20Chapter%205%20-%20Control%20flows%20and%20Iterables.ipynb) |              |
+| 6         | Functions：函式                             | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%206/Python%20Basics%20-%20Chapter%206%20-%20Functions.ipynb)                         |              |
+| 7         | Chapter 7 - Classes - 類別                  | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%207/Python%20Basics%20-%20Chapter%207%20-%20Classes.ipynb)                           |              |
+| 8         | Miscellaneous - 其餘補充說明                | [Link](https://github.com/VioletVivirand/python-101/blob/main/notebooks/Chapter%208/Python%20Basics%20-%20Chapter%208%20-%20Miscellaneous.ipynb)                     |              |
+
+## Contributing
 
 Lock dependencies before submit changes:
 
