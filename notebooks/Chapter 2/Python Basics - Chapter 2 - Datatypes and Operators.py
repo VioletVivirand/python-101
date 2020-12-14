@@ -142,6 +142,9 @@ bool(0.01)
 # + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 736, "status": "ok", "timestamp": 1607399686002, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="rdxDij7wAwvy" outputId="737d3d54-e52a-48ce-ef41-30b86b022aad"
 print(True)   # 是
 print(False)  # 否
+# -
+
+print(type(True))
 
 # + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1056, "status": "ok", "timestamp": 1607399969411, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="2VPLB5oPAy6f" outputId="61c67bac-5d17-47b9-e293-8609f9830c52"
 print(True == 1)   # 驗證 0 以外的數字是否代表 True
@@ -206,16 +209,16 @@ print("""And these are
 multiline strings
 """)  # ''' also works!
 
-# + [markdown] id="pX2VckXj4A4v"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 多行字串常見的用途，是作為函式或是方法的文件字串 (Docstrings)：
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1299, "status": "ok", "timestamp": 1607406255235, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="VQn3xqugdXKs" outputId="13eb06ce-0b45-45c7-b38b-2aea132a09f1"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 搭配內建函式 help()，我們將可以查看物件的說明文件內容！
 # 例：查看 print() 的用法
 help(print())
 
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1161, "status": "ok", "timestamp": 1607406643011, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="xG5uVW-Q4z5D" outputId="ea7140b6-3ffb-4439-dfc2-01b09130db32"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 接著我們來驗證一下 Docstrings 的製作
 def foo():
     """
@@ -225,13 +228,13 @@ def foo():
 
 help(foo)
 
-# + [markdown] id="39eyhhU_5vgM"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # > 看不懂 `def` 在做什麼嗎？其實就是建立一個函式。不知道為什麼這樣用？別用擔心，後面的章節會講解到！
 
-# + [markdown] id="H3r1d00Zd-Qm"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # ### 索引 (Indexing) 與分割 (slicing) 字串
 
-# + [markdown] id="9sBd0O0O6G4b"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 在 Python 中，並沒有單一字元的 `char` 型態，而 `str` 字串型態可以視為多個單一字元的集合，所以可以從中擷取部分的內容。
 #
 # 用來指定擷取的內容位置是索引值 (Index)。在電腦程式的世界裡，通常第一個物件的索引值都是 `0`，之後的索引值則為 `1`, `2`, `3`......。Python 還有提供由後往前數的功能，而最後一個字元往前算的索引值則為 `-1`, `-2`, `-3`......。
@@ -243,69 +246,66 @@ help(foo)
 # * `step`：從擷取首字的位置起算，每隔幾個字元擷取一次，預設為 `1`，此值可忽略
 #
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 998, "status": "ok", "timestamp": 1606879308694, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="DpIkWdMEdeoq" outputId="ef426fdd-56c1-4ae5-d605-1c2d4e9172ae"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 試著指定 start 索引值來取得字串中的單一字元
 print("String"[3])
 print("String"[-3])
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1134, "status": "ok", "timestamp": 1607412857416, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="asmQwFVHeGc5" outputId="cb550ff8-edef-4237-b302-223f6b6cc5bb"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 試著指定 start 以及 stop 的索引值，來擷取數個字元
 print("String"[2:6])
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1012, "status": "ok", "timestamp": 1606880643100, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="Uc1JDBY_i0ND" outputId="f0da54c7-fb66-4ee2-afed-56cc6db6f722"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("String"[:3])  # 若不指定 start，則預設從第一個字元開始擷取
 print("String"[2:])  # 若不指定 stop，則預設擷取到最後一個字元
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1133, "status": "ok", "timestamp": 1607413996213, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="CyV7ybYSjMMR" outputId="80830be9-ad9e-41c8-f7ad-7c18286e9580"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 試著指定 step
 print("String"[1:6:2])
 print("String"[1::2])  # 可以不指定 start 或 stop 的任意一項
 
-# + [markdown] id="NyxXFkvQjggY"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # ### 字串相關小技巧
 
-# + [markdown] id="DxfYTnAeauo3"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 在顯示字串時，可以將字串用不同的方式組合在一起，提高閱讀性：
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1051, "status": "ok", "timestamp": 1606881353750, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="4e5wYLtEjYAr" outputId="9fc4d999-3c7b-4587-84b8-a909a14ce353"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("Hello " + "world!")  # 多個字串可以用 + 號連接成一個字串
 print("Hello ""world!")     # 可以將字串連續放置在 print() 函式內
 print("Hello", "world!")    # 字串間如果用逗號 "," 隔開，則在顯示時會自動在兩倆之間加上空格
 
-# + [markdown] id="W4xmjkcYam3h"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 而使用 `in`: 包含測試運算子，可以驗證某字串是否包含在某個字串之內
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 925, "status": "ok", "timestamp": 1607414281973, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="KTEIWnVdjtYz" outputId="363ac9d2-14be-455e-a985-984a2ac42ed9"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print('lo' in "Hello")
 
-# + [markdown] id="zyS6ghGIj0pM"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # ### 字串方法
 
-# + [markdown] id="k8DNqEbjXNAx"
+# + [markdown] colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 # 字串帶有一些內建的方法 (methods) 可以使用，例如大小寫轉換、尋找字元、取代、去除字串內的空白字元⋯⋯等等。
 #
 # > 「方法 (methods)」容易與「函式 (functions)」稍微產生混淆。下一個章節我們會把這兩個要素放在一起講解，現在讓我們先學會操作一些實用的方法吧！
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 2108, "status": "ok", "timestamp": 1606880885865, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="5gwB_86ej-sS" outputId="f0aedcdb-a41e-4e7e-d804-fd4636d4247a"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("Hello world!".upper())  # 將字串轉換為大寫
 print("Hello world!".lower())  # 將字串轉換為小寫
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1236, "status": "ok", "timestamp": 1606880914209, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="hJcg7w9KkHOH" outputId="6923ada2-df0d-48f8-fa73-cea4f236d697"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("string".find('ring'))  # 在字串中，搜尋特定字串第一次出現的位置的索引值
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1375, "status": "ok", "timestamp": 1606880962950, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="1RSKjqAokMMg" outputId="8797941d-a2d0-4685-c244-4e044f2a1383"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("string".replace("ng", "ke"))  # 將字串取代為另一個字串
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1148, "status": "ok", "timestamp": 1607414669688, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="RCA4ueXTkaL_" outputId="8e464365-dc4d-46c0-8c48-a20269315c77"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("    string    ".strip() + "<EOL>")   # 消除字串左側與右側的所有空格
 print("    string    ".lstrip() + "<EOL>")  # 消除字串左側的所有空格
 print("    string    ".rstrip() + "<EOL>")  # 消除字串右側的所有空格
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1374, "status": "ok", "timestamp": 1606894928639, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="t1So2dSIlvAV" outputId="534cc1ab-2f8c-4552-ac20-e8793b514121"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("1,1,2,3,5,8,13,21".split(","))  # 將字串以特定字元為界線，將其分割成許多分開的字串
 
-# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1083, "status": "ok", "timestamp": 1606881556653, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="Z02VU9aDmjiH" outputId="86043aa3-1a9c-4f22-d5d9-1b7a8ff2901a"
+# + colab={"base_uri": "https://localhost:8080/"} executionInfo={"elapsed": 1311, "status": "ok", "timestamp": 1606888701236, "user": {"displayName": "\u9ec3\u7a2e\u5e73", "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GjCoYcYDAMAK-J-MvClxwWJY0fvKYsny6BL962ZNA=s64", "userId": "12486487678081777487"}, "user_tz": -480} id="m6-SDtwLcRlU" outputId="ecf54006-4c54-4950-c482-7fb01cef45ba"
 print("-".join("ENGLISH"))  # 將字串中的每個字元，用指定的字元相互連接起來
-
-# + id="NKX1wlvsmrPs"
-
