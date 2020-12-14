@@ -1,6 +1,12 @@
 # Python 101 Tutorial
 
+![GitHub last commit](https://img.shields.io/github/last-commit/violetvivirand/python-101)
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/violetvivirand/python-101)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/violetvivirand/python-101)
+![GitHub repo size](https://img.shields.io/github/repo-size/violetvivirand/python-101)
+![GitHub top language](https://img.shields.io/github/languages/top/violetvivirand/python-101)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/violetvivirand/python-101/jupyter)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/violetvivirand/python-101/jupyterlab)
 
 Python lectures for begineers
 
