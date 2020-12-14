@@ -10,7 +10,7 @@ python_version = "3.6"
 jupyter = "==1.*,>=1.0.0"
 jupyter-http-over-ws = "==0.*,>=0.0.8"
 jupyterlab = "==2.*,>=2.2.9"
-jupytext = "==1.*,>=1.7.1"
+jupyterlab-git = "==0.*,>=0.23.2"
 
 [dev-packages]
 ipython = "==7.16.1"
