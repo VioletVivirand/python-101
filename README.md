@@ -25,7 +25,7 @@ Python lectures for begineers
 
 ## Contributing
 
-Lock dependencies before submit changes:
+Lock dependencies before submitting changes:
 
 ```bash
 # Freeze into requirements.txt with Poetry
