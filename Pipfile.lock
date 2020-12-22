@@ -8,7 +8,7 @@
             }
         ],
         "requires": {
-            "python_version": "3.6.9"
+            "python_version": "3.7.9"
         },
         "hash": {
             "sha256": "0419dff3d5da9eddca9d6468e4a7f5bff4a865dcf04872d612a154e2087b21c1"
