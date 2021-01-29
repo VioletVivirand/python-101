@@ -10,6 +10,10 @@
 
 Python lectures for begineers
 
+## Slides (Written in Traditional Chinese)
+
+[Google Drive](https://docs.google.com/presentation/d/1hZpouWlk-Fs37fBiNgUf2bVUylmo15kvz53iK7bbASA/edit?usp=sharing)
+
 ## Chapters
 
 | Chapter # | Title                                       | Notebook                                                                                                                                                             |                                                                                                                           Google Colab                                                                                                                           |
